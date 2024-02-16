@@ -1,0 +1,199 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top,#1111111c, #e9e8e885), url("../assets/parkguell.jpg") 
+    
+}
+
+
+.footer{
+    text-align: center;
+    background-color:  rgba(216, 238, 127, 0.866);
+    padding: 20px 0;
+}
+
+
+
+h2 {
+    font-size: 10px;
+    background-color: rgba(216, 238, 127, 0.866);
+    border-radius: 30px;  
+}
+
+.bgnav {
+    background-color: rgba(216, 238, 127, 0.866);
+    padding: 3px;
+}
+
+.grilla1 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    background-color:transparent;
+    padding: 10px;
+    gap: 20px;
+    grid-template-areas: 
+    'a1 a2 a3'
+    'a4 a5 a6'
+    ;
+}
+
+.grilla2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(5,1fr);
+    background-color:transparent;
+    padding: 10px;
+    gap: 20px;
+    grid-template-areas: 
+    'a1 a1 a1'
+    'a4 a4 a4'
+    'a7 a7 a7'
+    'a10 a10 a10'
+    'a13 a13 a13'
+    ;
+}
+
+.grilla3 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows:auto;
+    background-color:transparent;
+    padding: 10px;
+    gap: 20px;
+    grid-template-areas: 
+    'a1 a2 a3 a4 a5'
+    'a1 a2 a3 a4 a5'
+    ;
+}
+
+.b1 {
+    grid-area: a1;
+}
+
+.b2 {
+    grid-area: a2;
+}
+
+.b3 {
+    grid-area: a3;
+}
+
+.b4 {
+    grid-area: a1;
+}
+
+.b5 {
+    grid-area: a2;
+}
+
+.b6 {
+    grid-area: a3;
+}
+
+.b7 {
+    grid-area: a4;
+}
+
+.b8 {
+    grid-area: a5;
+    display: flex;
+}
+
+.b9 {
+    grid-area: a6;
+}
+
+.b10 {
+    grid-area: a1;
+}
+
+.b11 {
+    grid-area: a4;
+
+}
+
+.b12 {
+    grid-area: a7;
+}
+
+.b13 {
+    grid-area: a10;
+}
+
+.b14 {
+    grid-area: a13;
+}
+
+.b15 {
+    grid-area: a1;
+}
+
+.b16 {
+    grid-area: a2;
+}
+
+.b17 {
+    grid-area: a3;
+}
+
+.b18 {
+    grid-area: a4;
+}
+
+.b19 {
+    grid-area: a5;
+}
+
+.grilla1 h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.grilla1 img {
+    display: colum;
+    object-fit: cover;
+}
+
+.grilla1 p{
+    text-align: justify;
+}
+
+.contenedor p{
+    padding: 10px;
+}
+
+.contenedor h1{
+        text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(216, 238, 127, 0.866);
+    color: black;
+    text-decoration:none;
+    border-radius: 5px;
+}
+
+@media(max-width:1024px) {
+    .box {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
+
+
